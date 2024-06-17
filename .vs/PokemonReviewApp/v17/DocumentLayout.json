@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VisualStudioProjects\\PokemonReviewApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\github repo\\PokemonReviewApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|d:\\github repo\\pokemonreviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|d:\\github repo\\pokemonreviewapp\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|solutionrelative:seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|d:\\github repo\\pokemonreviewapp\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|solutionrelative:models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|d:\\github repo\\pokemonreviewapp\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C8EA6D-ABBC-418B-8DFA-F9CBDB4A2E3A}|PokemonReviewApp.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github repo\\PokemonReviewApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\github repo\\PokemonReviewApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T18:13:13.634Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "D:\\github repo\\PokemonReviewApp\\Seed.cs",
+              "RelativeDocumentMoniker": "Seed.cs",
+              "ToolTip": "D:\\github repo\\PokemonReviewApp\\Seed.cs",
+              "RelativeToolTip": "Seed.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T18:17:03.732Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "D:\\github repo\\PokemonReviewApp\\Models\\Owner.cs",
+              "RelativeDocumentMoniker": "Models\\Owner.cs",
+              "ToolTip": "D:\\github repo\\PokemonReviewApp\\Models\\Owner.cs",
+              "RelativeToolTip": "Models\\Owner.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T18:20:59.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\github repo\\PokemonReviewApp\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "D:\\github repo\\PokemonReviewApp\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T17:44:37.659Z",
+              "EditorCaption": ""
             }
           ]
         }
