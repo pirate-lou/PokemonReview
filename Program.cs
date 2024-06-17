@@ -1,21 +1,49 @@
-using PokemonReviewApp.Models;
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using PokemonReviewApp;
+using PokemonReviewApp.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
+// AddTransient going to add the enjection at the very beginning / add objects at the very beginning 
+builder.Services.AddTransient<Seed>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
-
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 var app = builder.Build();
+
+if (args.Length == 1 && args[0].ToLower() == "seeddata")
+    SeedData(app);
+
+void SeedData(IHost app)
+{
+    var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
+
+    using (var scope = scopedFactory.CreateScope())
+    {
+        var servece = scope.ServiceProvider.GetService<Seed>();
+        servece.SeedDataContext();
+    }
+}
+
+
+/*
+ подключил базу
+создал datacontext
+
+как это все связано общей катины пока что нет...
+
+остановился на создании базы данных???
+ */
+
+// creating regration - continue 
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
