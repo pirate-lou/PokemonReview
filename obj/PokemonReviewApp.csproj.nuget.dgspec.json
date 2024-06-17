@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudioProjects\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
+    "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/PokemonReviewApp.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudioProjects\\PokemonReviewApp\\PokemonReviewApp.csproj": {
+    "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/PokemonReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudioProjects\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectUniqueName": "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/PokemonReviewApp.csproj",
         "projectName": "PokemonReviewApp",
-        "projectPath": "D:\\VisualStudioProjects\\PokemonReviewApp\\PokemonReviewApp.csproj",
-        "packagesPath": "C:\\Users\\Gleb\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudioProjects\\PokemonReviewApp\\obj\\",
+        "projectPath": "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/PokemonReviewApp.csproj",
+        "packagesPath": "/Users/glebannenkov/.nuget/packages/",
+        "outputPath": "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/glebannenkov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,19 +63,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
+              "version": "[6.0.31, 6.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.30, 6.0.30]"
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
+              "version": "[6.0.31, 6.0.31]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
