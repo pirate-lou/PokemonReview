@@ -33,17 +33,7 @@ void SeedData(IHost app)
     }
 }
 
-
-/*
- подключил базу
-создал datacontext
-
-как это все связано общей катины пока что нет...
-
-остановился на создании базы данных???
- */
-
-// creating regration - continue 
+// migration - it's going to create the code that going to write all the sql squares for the database
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

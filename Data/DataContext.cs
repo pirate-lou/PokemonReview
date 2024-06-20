@@ -24,9 +24,10 @@ namespace PokemonReviewApp.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // this's going to tell entity framework: "hey, we need to link these two ids together"
+            // this's going to tell entity framework: "hey, we need to link these two Ids together"
             // otherwise entity framework's not going to know that u want to link these two ids together 
             // and the relationships not going to actually exist 
+
             modelBuilder.Entity<PokemonCategory>()
                 .HasKey(pc => new { pc.PokemonId, pc.CategoryId });
             modelBuilder.Entity<PokemonCategory>()
