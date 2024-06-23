@@ -19,7 +19,7 @@ namespace PokemonReviewApp.Controllers
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(IEnumerable<Pokemon>))]
 
-        public IActionResult GetPokemons()
+        public IActionResult GetPokémon()
         {
             // it's bring all code from "Controller"
             var pokemons = PokemonRepository.GetPokemons();

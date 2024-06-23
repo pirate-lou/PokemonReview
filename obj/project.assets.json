@@ -2449,11 +2449,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github repo\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "projectUniqueName": "D:\\Git-Hub\\PokemonReviewApp\\PokemonReviewApp.csproj",
       "projectName": "PokemonReviewApp",
-      "projectPath": "D:\\github repo\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "projectPath": "D:\\Git-Hub\\PokemonReviewApp\\PokemonReviewApp.csproj",
       "packagesPath": "C:\\Users\\Gleb\\.nuget\\packages\\",
-      "outputPath": "D:\\github repo\\PokemonReviewApp\\obj\\",
+      "outputPath": "D:\\Git-Hub\\PokemonReviewApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gleb\\AppData\\Roaming\\NuGet\\NuGet.Config",

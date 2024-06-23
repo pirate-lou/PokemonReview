@@ -1,15 +1,16 @@
 ﻿using PokemonReviewApp.Data;
+using PokemonReviewApp.Interface;
 using PokemonReviewApp.Models;
 
 namespace PokemonReviewApp.Repository
 {
-    public class PokemonRepository
+    public class PokemonRepository : IPokemonRepository
     {
-        private readonly DataContext Context;
+        private readonly DataContext _context;
 
         public PokemonRepository(DataContext context)
         {
-            Context = context;
+            _context = context;
         }
 
         // ICollection can't be edited and it can only be shown only be read 
@@ -17,7 +18,7 @@ namespace PokemonReviewApp.Repository
         public ICollection<Pokemon> GetPokemons()
         {
             // in there we just putting database calls
-            return Context.Pokemon.OrderBy(p => p.Id).ToList();
+            return _context.Pokemon.OrderBy(p => p.Id).ToList();
         }
 
         // if u'll see the folder called "Services" - it's chunk of code that are being pulled out 
