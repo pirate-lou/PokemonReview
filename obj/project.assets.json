@@ -2444,27 +2444,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gleb\\.nuget\\packages\\": {}
+    "/Users/glebannenkov/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git-Hub\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "projectUniqueName": "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/PokemonReviewApp.csproj",
       "projectName": "PokemonReviewApp",
-      "projectPath": "D:\\Git-Hub\\PokemonReviewApp\\PokemonReviewApp.csproj",
-      "packagesPath": "C:\\Users\\Gleb\\.nuget\\packages\\",
-      "outputPath": "D:\\Git-Hub\\PokemonReviewApp\\obj\\",
+      "projectPath": "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/PokemonReviewApp.csproj",
+      "packagesPath": "/Users/glebannenkov/.nuget/packages/",
+      "outputPath": "/Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/glebannenkov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2520,6 +2518,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2528,8 +2540,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/glebannenkov/Documents/Git Kraken repo/PokemonReviewApp/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
